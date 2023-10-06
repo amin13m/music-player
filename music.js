@@ -121,18 +121,13 @@ back.addEventListener("click", (e) => {
 })
 
 
-/*
+//fakepath error
 
 let add = {
     name: "difalt",
-    imge: "images/بلبل4.jpg",
+    imge: "images/th (2).jpg",
     audio:"musics/MohammadReza Shajarian - Tasnife Del Bordi.mp3",
 }
-
-
-
-
-
 
 
 let plus = document.querySelector(".fa-plus-square")
@@ -141,6 +136,7 @@ let nn = document.querySelector(".name")
 let ni = document.querySelector(".img")
 let nm = document.querySelector(".audio")
 let h = document.querySelector(".h")
+let ul = document.querySelector("ul")
 
 botten.addEventListener("click", (e) => {
     
@@ -148,6 +144,7 @@ botten.addEventListener("click", (e) => {
         nn.style.display = "block"
         ni.style.display = "block"
         nm.style.display = "block"
+        ul.style.display = "block"
 
         botten.className= " fa fa-upload"
     }else{
@@ -155,7 +152,7 @@ botten.addEventListener("click", (e) => {
         nn.style.display = "none"
         ni.style.display = "none"
         nm.style.display = "none"
-
+        ul.style.display = "none"
 
         add.name = nn.value
         add.imge = ni.value
@@ -176,7 +173,7 @@ botten.addEventListener("click", (e) => {
 })
 
 
-*/
+
 
 
 
